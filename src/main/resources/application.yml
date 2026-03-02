@@ -1,0 +1,17 @@
+Spring:
+  application:
+    name: dynamic-pricing-service-LaunchDarkly
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+launchdarkly:
+  sdk-key: ${LD_SDK_KEY}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

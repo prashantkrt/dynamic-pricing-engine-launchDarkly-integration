@@ -1,0 +1,6 @@
+launchdarkly:
+  sdk-key: ${LD_SDK_KEY_DEV}
+
+logging:
+  level:
+    root: INFO
